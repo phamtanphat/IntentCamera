@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ptp.phamtanphat.intentcamera.MainActivity">
+
+   <Button
+       android:id="@+id/buttoncamera"
+       android:drawableLeft="@android:drawable/ic_menu_camera"
+       android:text="Camera"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/buttongallery"
+        android:drawableLeft="@android:drawable/ic_menu_gallery"
+        android:layout_alignParentRight="true"
+        android:text="Gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@android:drawable/ic_menu_report_image"
+        android:id="@+id/imageview"
+        android:layout_centerInParent="true"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+
+</RelativeLayout>
