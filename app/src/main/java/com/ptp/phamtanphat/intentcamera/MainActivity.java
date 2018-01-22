@@ -54,8 +54,7 @@ public class MainActivity extends AppCompatActivity {
             img.setImageBitmap(bitmap);
         }
         if (requestCode == Request_Code_Gallery && resultCode == RESULT_OK && data != null){
-            Uri uri = data.getData();
-            img.setImageURI(uri);
+
         }
         super.onActivityResult(requestCode, resultCode, data);
     }
